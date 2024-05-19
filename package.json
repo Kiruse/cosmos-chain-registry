@@ -1,0 +1,15 @@
+{
+  "name": "@kiruse/cosmos-chain-registry",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
