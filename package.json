@@ -1,12 +1,12 @@
 {
   "name": "@kiruse/cosmos-chain-registry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "module": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublish": "tsc"
+    "prepack": "tsc"
   },
   "devDependencies": {
     "@types/bun": "latest"
