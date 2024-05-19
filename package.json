@@ -1,9 +1,16 @@
 {
   "name": "@kiruse/cosmos-chain-registry",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "module": "index.js",
   "types": "index.d.ts",
+  "license": "MIT",
+  "description": "A micro-library to read the cosmos/chain-registry repository.",
+  "keywords": ["cosmos", "chain-registry"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiruse/cosmos-chain-registry.git"
+  },
   "scripts": {
     "build": "tsc",
     "prepack": "tsc"
